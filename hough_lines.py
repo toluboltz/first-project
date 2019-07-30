@@ -56,3 +56,6 @@ color_edges = np.dstack((edges, edges, edges))
 combo = cv2.addWeighted(color_edges, 0.8, line_image, 1, 0)
 plt.imshow(combo)
 plt.show()
+
+# save image
+#plt.imsave('<filename>', <image>)
