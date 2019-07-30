@@ -58,4 +58,4 @@ plt.imshow(combo)
 plt.show()
 
 # save image
-#plt.imsave('<filename>', <image>)
+plt.imsave('output-image.jpg', combo)
